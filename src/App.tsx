@@ -18,6 +18,22 @@ export function App() {
     <div className="min-h-screen bg-[#0A0A0F] text-white selection:bg-cyan-500/30">
       <AnnouncementBar />
       <Header />
+      function App() {
+  return (
+    <div style={{
+      background:"#020617",
+      color:"white",
+      minHeight:"100vh",
+      padding:"60px",
+      fontFamily:"Arial"
+    }}>
+      <h1>Marvion Marketing</h1>
+      <p>Social Media Marketing Agency</p>
+    </div>
+  )
+}
+
+export default App
 
       <main>
         <Hero />
