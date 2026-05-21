@@ -1,6 +1,6 @@
 import React from 'react';
 import { MessageCircleIcon } from 'lucide-react';
-export function WhatsAppButton() {
+function WhatsAppButton() {
   return (
     <a
       href="https://wa.me/1234567890" // Replace with actual number
@@ -16,3 +16,4 @@ export function WhatsAppButton() {
     </a>);
 
 }
+export function WhatsAppButton()
