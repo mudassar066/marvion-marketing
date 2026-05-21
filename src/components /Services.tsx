@@ -8,7 +8,7 @@ import {
   LightbulbIcon,
   TrendingUpIcon } from
 'lucide-react';
-export function Services() {
+function Services() {
   const services = [
   {
     title: 'Social Media Management',
@@ -124,3 +124,4 @@ export function Services() {
     </section>);
 
 }
+export function Services()
