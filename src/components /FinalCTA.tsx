@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-function FinalCTA() {
+export default function FinalCTA() {
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Ambient Glow */}
