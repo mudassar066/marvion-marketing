@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-export function Header() {
+function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   useEffect(() => {
@@ -130,3 +130,4 @@ export function Header() {
     </header>);
 
 }
+export default Header;
