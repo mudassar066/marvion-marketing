@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { QuoteIcon, StarIcon } from 'lucide-react';
-function Testimonials() {
+export default function Testimonials() {
   const reviews = [
   {
     quote:
