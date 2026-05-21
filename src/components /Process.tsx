@@ -6,7 +6,7 @@ import {
   SettingsIcon,
   RocketIcon } from
 'lucide-react';
-function Process() {
+export default function Process() {
   const steps = [
   {
     num: '01',
