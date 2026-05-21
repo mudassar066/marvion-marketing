@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { QuoteIcon, StarIcon } from 'lucide-react';
-export function Testimonials() {
+function Testimonials() {
   const reviews = [
   {
     quote:
@@ -103,3 +103,4 @@ export function Testimonials() {
     </section>);
 
 }
+export function Testimonials()
