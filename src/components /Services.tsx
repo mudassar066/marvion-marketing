@@ -8,7 +8,7 @@ import {
   LightbulbIcon,
   TrendingUpIcon } from
 'lucide-react';
-function Services() {
+export default function Services() {
   const services = [
   {
     title: 'Social Media Management',
