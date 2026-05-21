@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckIcon } from 'lucide-react';
-function Pricing() {
+export default function Pricing() {
   const plans = [
   {
     name: 'Starter Package',
