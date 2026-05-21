@@ -1,4 +1,5 @@
 import React from 'react';
+
 import AnnouncementBar from './components/AnnouncementBar';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -13,10 +14,13 @@ import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
-export function App() {
+
+function App() {
   return (
-    <div className="min-h-screen bg-[#0A0A0F] text-white selection:bg-cyan-500/30">
+    <div className="min-h-screen bg-[#0A0A0F] text-white">
+      
       <AnnouncementBar />
+      
       <Header />
 
       <main>
@@ -33,7 +37,11 @@ export function App() {
       </main>
 
       <Footer />
-      <WhatsAppButton />
-    </div>);
 
+      <WhatsAppButton />
+
+    </div>
+  );
 }
+
+export default App;
