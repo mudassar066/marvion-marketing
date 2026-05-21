@@ -6,7 +6,7 @@ import {
   TrendingUpIcon,
   UsersIcon } from
 'lucide-react';
-function Hero() {
+export default function Hero() {
   return (
     <section
       id="home"
