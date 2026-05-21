@@ -6,7 +6,7 @@ import {
   TrendingUpIcon,
   UsersIcon } from
 'lucide-react';
-export function Hero() {
+function Hero() {
   return (
     <section
       id="home"
@@ -200,3 +200,4 @@ export function Hero() {
     </section>);
 
 }
+export function Hero()
