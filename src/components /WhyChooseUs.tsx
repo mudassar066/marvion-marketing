@@ -6,7 +6,7 @@ import {
   ZapIcon,
   MessageSquareIcon } from
 'lucide-react';
-export function WhyChooseUs() {
+function WhyChooseUs() {
   const reasons = [
   'Creative Marketing Strategy',
   'Fast Communication',
@@ -154,3 +154,4 @@ export function WhyChooseUs() {
     </section>);
 
 }
+export function WhyChooseUs()
