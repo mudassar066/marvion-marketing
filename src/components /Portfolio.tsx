@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRightIcon, TrendingUpIcon } from 'lucide-react';
-function Portfolio() {
+export default function Portfolio() {
   const cases = [
   {
     title: 'Restaurant Brand Growth',
