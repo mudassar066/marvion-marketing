@@ -1,5 +1,5 @@
 import React from 'react';
-export function AnnouncementBar() {
+function AnnouncementBar() {
   return (
     <div className="bg-gradient-to-r from-blue-900/50 to-cyan-900/50 border-b border-white/10 py-2 px-4 text-center">
       <p className="text-sm font-medium text-blue-100">
@@ -14,3 +14,4 @@ export function AnnouncementBar() {
     </div>);
 
 }
+export function AnnouncementBar()
