@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDownIcon } from 'lucide-react';
-function FAQ() {
+export default function FAQ() {
   const faqs = [
   {
     q: 'How long before results?',
