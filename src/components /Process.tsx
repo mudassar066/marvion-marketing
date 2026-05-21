@@ -6,7 +6,7 @@ import {
   SettingsIcon,
   RocketIcon } from
 'lucide-react';
-export function Process() {
+function Process() {
   const steps = [
   {
     num: '01',
@@ -122,3 +122,4 @@ export function Process() {
     </section>);
 
 }
+export function Process()
