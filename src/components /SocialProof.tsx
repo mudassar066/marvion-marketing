@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-function SocialProof() {
+export default function SocialProof() {
   const stats = [
   {
     value: '50+',
